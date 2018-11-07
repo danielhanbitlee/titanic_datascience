@@ -8,4 +8,7 @@ setup(name='titanic',
       author_email='danielhanbitlee@gmail.com',
       url='',
       packages=['titanic'],
+      install_requires=[
+	'pypandoc>=1.4'
+      ]
      )
